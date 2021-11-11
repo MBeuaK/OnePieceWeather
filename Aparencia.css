@@ -1,0 +1,19 @@
+body{
+    border-image-width: auto;
+    border-image: auto;
+    background-image:auto;
+}
+.container img{
+    max-width: fit-content;
+    max-height: fit-content;
+    width: auto;
+    height: auto;
+}
+section{
+
+}
+div{
+    color: white;
+    text-align:left;
+}
+footer{}
