@@ -1,19 +1,20 @@
 body{
-    border-image-width: auto;
-    border-image: auto;
-    background-image:auto;
+
+        background-size: cover;
 }
-.container img{
-    max-width: fit-content;
-    max-height: fit-content;
-    width: auto;
-    height: auto;
-}
-section{
+
+div.localizacao{
+    color: white;
+    text-align:center;
 
 }
-div{
-    color: white;
-    text-align:left;
+div#msg{
+    color: royalblue;
+    text-align:right;
 }
-footer{}
+
+
+footer{
+    color: white;
+    text-align: end;
+}

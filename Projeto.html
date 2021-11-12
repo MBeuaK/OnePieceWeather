@@ -7,16 +7,13 @@
     <title>One Piece Weather</title>
     <link rel="stylesheet" href="Aparencia.css">
 </head>
-<body onload="carregar()">
-    <STYLE TYPE="text/css">
-        BODY {background-image: url('https://www.xtrafondos.com/wallpapers/one-piece-artwork-4011.jpg'); background-repeat: no-repeat;
-         background-position:top ; background-attachment: fixed; background-size: cover;}
-        </STYLE>
+<body class="bg" style="background-image:url('https://www.xtrafondos.com/wallpapers/one-piece-artwork-4011.jpg');">
+    <div style="position: absolute;top: 8px;">
+        <div id='msg' style="left: auto;"> </div>
+        <div id='Localizacao' onclick="DescobrirLocalizacao">Use a minha localização</div> 
 
-<div id='Localizacao' onclick="DescobrirLocalizacao">Use a minha localização</div> 
-
-
-    
+    </div>
+   
 
     <script src="Código.js"></script>
 </body>
