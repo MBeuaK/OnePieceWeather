@@ -1,20 +1,25 @@
 body{
-
+        background-image: url('https://www.xtrafondos.com/wallpapers/one-piece-artwork-4011.jpg');
         background-size: cover;
 }
 
-div.localizacao{
-    color: white;
-    text-align:center;
-
-}
 div#msg{
-    color: royalblue;
+    color: white;
     text-align:right;
 }
 
-
+div#Localizacao{
+    color: rgb(255, 255, 255);
+    text-align:left;
+    position: fixed;
+}
+div#info{
+    color: rgb(255, 255, 255);
+    text-align:right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
 footer{
-    color: white;
-    text-align: end;
+    
 }

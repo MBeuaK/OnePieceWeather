@@ -7,13 +7,18 @@
     <title>One Piece Weather</title>
     <link rel="stylesheet" href="Aparencia.css">
 </head>
-<body class="bg" style="background-image:url('https://www.xtrafondos.com/wallpapers/one-piece-artwork-4011.jpg');">
+<body class="bg" style="background-image:url('https://www.xtrafondos.com/wallpapers/one-piece-artwork-4011.jpg');" >
     <div style="position: absolute;top: 8px;">
         <div id='msg' style="left: auto;"> </div>
-        <div id='Localizacao' onclick="DescobrirLocalizacao">Use a minha localização</div> 
+        <div id='Localizacao' onclick="DescobrirLocalizacao()">Use a minha localização</div> 
 
     </div>
-   
+   <footer>
+       <div id='info' onclick="abrirInfo()">
+       <p> https://github.com/MBeuaK/OnePieceWeather</p>
+          <p> Autor:"MBeuaK"</p>
+       </div>
+   </footer>
 
     <script src="Código.js"></script>
 </body>
