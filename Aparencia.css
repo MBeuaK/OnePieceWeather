@@ -20,6 +20,10 @@ div#info{
     bottom: 0;
     right: 0;
 }
+p{
+    margin-top: 2px;
+    margin-bottom:10px;
+}
 footer{
     
 }
