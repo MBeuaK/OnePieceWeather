@@ -3,7 +3,9 @@ body{
         background-size: cover;
 }
 
-div#msg{
+
+
+p#msg{
     color: white;
     text-align:right;
 }
