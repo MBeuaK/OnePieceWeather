@@ -1,20 +1,21 @@
 var data = new Date()
-var hota = data.getHours()
+var hora = data.getHours()
 var minutos = data.getMinutes()
 let msg = document.getElementById('msg')
 
 function carregar(){
-    console.log(hora)
-    var imagem= document.getElementById('Fundo')
-    msg = `${hora}+ ":" + ${minutos} `
-    if(Hora>=6 && hora<12){
-        imagem.src='ImagemDaManhã.png'
+    console.log(msg)
+    msg.value = `${hora}:${minutos} `
+    if(hora>=6 && hora<12){
+        document.body.style.background ="url('ImagemDaManhã.png')"
         
     } else if(hora>=12 && hora<=18){
-        imagem.src='ImagemDaTarde.png'
+        document.body.style.background ="url('ImagemDaTarde.png')"
 
+    } else if(hora>18 && hora<6){
+        document.body.style.background ="url('ImagemDaNoite.jpg')"
     } else{
-        imagem.src='ImagemDaNoite.jpg'
+        document.body.style.background ="url('ImagemDeFundo.png')"
     }
 }
 
