@@ -1,8 +1,7 @@
 body.bg{
       /* background-image: url('https://www.xtrafondos.com/wallpapers/one-piece-artwork-4011.jpg');  */
-        background-size: cover;
-
-
+      
+     
 }
 
 img{
@@ -11,33 +10,36 @@ img{
     margin-right: 5px;
 }
 
-p#msg{
-    color: white;
-    text-align:right;
+p#relogio{
+    color: rgb(0, 0, 0);
+    text-align:center;
+    left: 50%;
 }
 
 div#Localizacao{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 101, 253);
     text-align:left;
     display: flex;
     align-items: center;
 
 }
-div#info{
-    color: rgb(255, 255, 255);
+
+div#repositorioGit{
+    color: rgb(0, 101, 253);
     text-align:right;
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 8px;
+    right: 6px;
 }
 
-p{
+p#Local{
     margin-top: 2px;
     margin-bottom:10px;
     opacity: 0.2;
     transition: opacity 0.5s;
+
 }
-p:hover{
+p#Local:hover{
     opacity: 1.0;
 }
 footer{

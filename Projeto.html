@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="Aparencia.css">
 </head>
 <body class="bg"  onload="carregar()" >
+    <p id='relogio'></p> 
     <div style="position: absolute;top: 8px;">
-        <p id='msg'></p> 
         <div id='Localizacao' onclick="DescobrirLocalizacao()">
             <img src="Localicon.png" alt="Localicon">
-          <p> Use a minha localização</p>
+            <p id="Local"> Use a minha localização</p>
         </div> 
 
     </div>
    <footer>
-       <div id='info' onclick="abrirInfo()">
-        <p> Autor:MBeuaK</p>
-       https://github.com/MBeuaK/OnePieceWeather
+       <div id='repositorioGit' onclick="repositorioGit()">
+        <div id="autor" onclick="infoAutor()">
+            MBeuaK
+        </div>
+        Github
        </div>
    </footer>
 
