@@ -5,23 +5,22 @@ let msg = document.getElementById('relogio')
 function carregar(){
     msg.innerHTML = `${hora}:${minutos} `
     if(hora>=6 && hora<12){
-        document.body.style.background ="url('ImagemDaManhã2.png')"
-        document.body.style.backgroundRepeat ="no-repeat" 
-        document.body.style.backgroundSize="initial"
-
-
+        backgroundProperties('ImagemDaManhã2.png')
     } else if(hora>=12 && hora<=18){
-        document.body.style.background ="url('ImagemDaTarde.png')"
-        document.body.style.backgroundRepeat ="no-repeat" 
-        document.body.style.objectFit="contain"
+        backgroundProperties('ImagemDaTarde.png')
 
     } else if(hora>18 && hora<6){
-        document.body.style.background ="url('ImagemDaNoite.png')"
-        document.body.style.backgroundSize="cover"
+        backgroundProperties('ImagemDaNoite.png')
     } else{
-        document.body.style.background ="url('ImagemDeFundo.png')"
-        document.body.style.backgroundSize="cover"
+        backgroundProperties('ImagemDeFundo.png')
     }
+}
+
+function backgroundProperties(url){
+    document.body.style.background =`url('${url}')`
+    document.body.style.backgroundRepeat ="no-repeat" 
+    document.body.style.backgroundSize="cover"
+
 }
 
 function infoAutor(){
