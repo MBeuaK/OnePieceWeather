@@ -7,9 +7,9 @@ function carregar(){
     let horaCerta = strings[0];
     if(horaCerta >= 6 && horaCerta < 12){
         backgroundProperties('Imagens/ImagemDaManhã.png')
-    } else if(hora>=12 && hora<=18){
+    } else if(horaCerta>=12 && horaCerta<=18){
         backgroundProperties('Imagens/ImagemDaTarde.png')
-    } else if(hora>18 && hora<6){
+    } else if(horaCerta > 18 && horaCerta < 6){
         backgroundProperties('Imagens/ImagemDaNoite.png')
     } 
     
