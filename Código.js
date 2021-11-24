@@ -19,12 +19,7 @@ function backgroundProperties(image){
     document.body.style.backgroundRepeat ="no-repeat" 
     document.body.style.backgroundSize="cover"
 }
-function infoAutor(){
-    open('https://www.linkedin.com/in/mbeuak/')
-}
-function repositorioGit(){
-    open('https://github.com/MBeuaK/OnePieceWeather')
-}
+
 function DescobrirLocalizacao(){
     let url;
     navigator.geolocation.getCurrentPosition((pos) => {
