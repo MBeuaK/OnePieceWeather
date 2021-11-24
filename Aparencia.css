@@ -15,8 +15,14 @@ div#Localizacao{
     text-align:left;
     display: flex;
     align-items: center;
-
+    cursor: pointer;
+    
 }
+
+#Localizacao:hover{
+    font-weight: bolder;
+}
+
 
 div#info{
     color: rgb(0, 73, 184);
