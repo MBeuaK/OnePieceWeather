@@ -55,6 +55,7 @@ a{
     transition: color rgb(0, 101, 253);
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 a:hover{
